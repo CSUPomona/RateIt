@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
     <title>Rate Cal Poly Professors</title>
 </head>
 <body>
@@ -16,7 +19,6 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="teachers.html ">Teachers</a></li>
                 <li id="majors">Majors <img src="./img/up-arrow-svgrepo-com.svg" class="carrot"></li>
                 <li><a href="#">Top Ranked</a></li>
             </ul>
@@ -24,13 +26,14 @@
     </div>
     <div class="majors-list"></div>
     <div class="hero">
-        <h3>Rate Our Professor</h3>
+        <h3>Rate Your Professor</h3>
         <img class="school" src="./img/school.png">
         <img class="logo" src="./img/broncos.png">
-        <div class="search-bar">
+        <div id="search-bar">
             <label for="search"><img src="./img/search-svgrepo-com.svg"></label>
             <input type="text" name="search" id="search" placeholder="Find Your Professor...">
         </div>
+        <div id="profile"></div>
     </div>
     <div class="action">
         <a href="post.html"><button id="button-post" alt="New Post"><img src="img/post.png"> New Post</button></a>
